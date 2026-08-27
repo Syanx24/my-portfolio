@@ -207,6 +207,26 @@ a {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+[data-theme="dark"] .cv-download {
+  border-color: transparent;
+  box-shadow: 0 8px 20px -6px rgba(0,0,0,0.7);
+}
+
+[data-theme="dark"] .cv-download svg {
+  stroke: #2E2408;
+}
+.socials .cv-download {
+  background: var(--accent) !important;
+  border-color: transparent !important;
+}
+
+.socials .cv-download svg {
+  stroke: #2E2408 !important;
+}
+
+.socials .cv-download:hover {
+  background: #E8B23A !important;
+}
 
 /* ---------- Avatar blob ---------- */
 .blob-holder {

@@ -44,7 +44,7 @@ const content = {
 
     <div class="stats-row">
       <div class="stat-item">
-        <span class="stat-num">3</span>
+        <span class="stat-num">4</span>
         <span class="stat-label">Projects shipped</span>
       </div>
 <a href="https://lnkd.in/p/dF2fUXix" target="_blank" rel="noopener" class="stat-item" style="text-decoration:none; display:block;">
@@ -63,7 +63,7 @@ const content = {
 
     <div class="cta-row">
       <button class="btn-primary" onclick="showTab('projects')">See my projects</button>
-      <a href="./media/Sayan_Bhattacharjee_cv.pdf" download class="btn-secondary">Download CV</a>
+      <a href="./media/Sayan Bhattacharjee_full stack developer_cv.pdf" download class="btn-secondary">Download CV</a>
     </div>
   `,
   experience: `
@@ -126,6 +126,11 @@ const content = {
   `,
   projects: `
     <h2>Projects</h2>
+    <div class="project-card">
+      <div class="project-title">WordShift <span style="font-weight:400; color:var(--ink-soft); font-size:13px;">— Nov 2026 · Full-stack MERN · Solo project</span></div>
+      <div class="project-desc">Real-time multiplayer word game where two players compete to transform one four-letter word into another, changing one letter per turn. Built with React, Node.js, Express, MongoDB, and Socket.IO, featuring shareable room links, turn-based gameplay, word validation, and a responsive Tailwind CSS interface.</div>
+      <a class="project-link" href="https://client-ten-kappa-69.vercel.app/" target="_blank" rel="noopener">Live Demo →</a> <span style="color:var(--ink-soft); font-size:13px; margin:0 4px;">·</span> <a class="project-link" href="https://github.com/Syanx24/wordshift" target="_blank" rel="noopener">GitHub Link →</a>
+    </div>
     <div class="project-card">
       <div class="project-title">CodeWise <span style="font-weight:400; color:var(--ink-soft); font-size:13px;">— Jul 2026 · Full-stack MERN · Solo project</span></div>
       <div class="project-desc">AI-powered code review platform built with React, Node.js, Express, and Monaco Editor, offering real-time code analysis with syntax highlighting and markdown-based feedback powered by the Gemini API.</div>
